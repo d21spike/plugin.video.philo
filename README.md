@@ -1,6 +1,10 @@
 # plugin.video.philo
 Philo Add-On for Kodi
 
+```diff
+*** This add-on is the development stage, it is non-functional ***
+```
+
 ![](https://github.com/d21spike/plugin.video.philo/blob/master/resources/images/icon.png?raw=true)
 
 ![Build Status](https://img.shields.io/badge/Build-Development-red)
