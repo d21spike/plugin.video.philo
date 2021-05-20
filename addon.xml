@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.philo" version="2021.5.20.1" name="Philo" provider="d21spike">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.requests"/>
+        <import addon="script.module.inputstreamhelper"/>
+        <import addon="script.module.kodi-six"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <description> A Kodi addon for Philo tv streaming service.</description>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 4, June 2007</license>
+        <source>https://github.com/d21spike/plugin.video.philo</source>
+        <website>https://www.philo.com/</website>
+        <news> </news>
+        <forum> </forum>
+        <assets>
+            <icon>resources/images/icon.png</icon>
+            <fanart>resources/images/fanart.png</fanart>
+            <screenshot>resources/images/screenshot-1.png</screenshot>
+            <screenshot>resources/images/screenshot-2.png</screenshot>
+            <screenshot>resources/images/screenshot-3.png</screenshot>
+            <screenshot>resources/images/screenshot-4.png</screenshot>
+        </assets>
+    </extension>
+</addon>

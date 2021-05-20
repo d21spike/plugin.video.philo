@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings version="1">
+    <section id="plugin.video.philo">
+        <category id="General" label="30000">
+            <group id="1">
+                <setting id="Enable_Debugging" type="boolean" label="30001">
+                    <level>0</level>
+                    <default>false</default>
+                    <control type="toggle" />
+                </setting>
+                <setting id="Email" type="string" label="30002">
+                    <level>0</level>
+                    <default></default>
+                    <constraints>
+                        <allowempty>true</allowempty>
+                    </constraints>
+                    <control type="edit" format="string"/>                
+                </setting>
+                <setting id="Log_Out" type="action" label="30003">
+                    <level>0</level>
+                    <control type="button" format="action" />
+                    <data>RunPlugin(plugin://plugin.video.philo/?mode=logout)</data>
+                </setting>
+            </group>
+        </category>
+        <category id="Hidden">
+            <group id="1">
+                <setting id="Device_ID" type="string">
+                    <level>4</level>
+                    <default/>
+                    <constraints>
+                        <allowempty>true</allowempty>
+                    </constraints>
+                </setting>
+            </group>
+        </category>
+    </section>
+</settings>
