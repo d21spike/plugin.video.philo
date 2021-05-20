@@ -41,7 +41,6 @@ class Philo(object):
         global FUNCTION, DEVICE_ID, SETTINGS
         FUNCTION = "Philo:getDeviceID"
         self.log("Generating new Device ID")
-        # web-3971f560-9db9-4686-89b6-59eebe03ab21
         DEVICE_ID = "web-%s" % uuid.uuid4()
         SETTINGS.setSetting('Device_ID', DEVICE_ID)        
     
